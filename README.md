@@ -1,12 +1,12 @@
-# Title
+# Movie ticket website
 
-#### Latest version date
+#### Latest version date 6/16/2020
 
-#### By Deryck Jackson
+#### By Deryck Jackson and JohnNils Olson
 
 ## Description
 
-
+A website that outputs ticket prices based on movie, time of day and age.
 
 ## Specifications
 
@@ -21,11 +21,11 @@
 
 ## Setup and Installation
 
-* Navigate to [Link]()
+* Navigate to [Link](https://github.com/DeryckJackson/movies-tickets)
 * Click the green clone button to download the repo your Computer
 * Find the .zip file on your Computer
 * Unzip the file
-* Browse to __ directory
+* Browse to _movies-tickets_ directory
 * Open _index.html_ in your browser
 
 ## Bugs
