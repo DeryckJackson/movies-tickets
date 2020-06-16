@@ -9,6 +9,42 @@
   <title>Movie Tickets</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1 class="jumbotron">Your Local Movie Theater</h1>
+    <div>
+      <form id="input">
+        <label for="movie">Which movie would you like to see:</label>
+        <select name="movie" id="movie">
+          <option value="The Matrix" data-value="true">The Matrix</option>
+          <option value="Willy Wonka And the Chocolate Factory" data-value="false">Willy Wonka And the Chocolate Factory</option>
+          <option value="Event Horizon" data-value="false">Event Horizon</option>
+          <option value="Mortal Kombat" data-value="true">Mortal Kombat</option>
+          <option value="Soldier" data-value="false">Soldier</option>
+          <option value="Shoot Em Up" data-value="true">Shoot Em Up</option>
+        </select><br>
+        <label for="showtimes">Showtimes:</label>
+        <select name="showtimes" id="showtimes">
+          <option value="11am" data-value="true">11AM</option>
+          <option value="1:30pm" data-value="true">1:30PM</option>
+          <option value="3:30pm" data-value="true">3:30PM</option>
+          <option value="5pm" data-value="false">5PM</option>
+          <option value="7pm" data-value="false">7PM</option>
+          <option value="9pm" data-value="false">9PM</option>
+          <option value="11pm" data-value="false">11PM</option>
+        </select><br>
+        <label for="age">Child, Adult or Senior:</label>
+        <select name="age" id="age">
+          <option value="child">Child</option>
+          <option value="adult">Adult</option>
+          <option value="senior">Senior</option>
+        </select><br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div id="output" class="hidden">
+      <p>Your Ticket price is: <span id="price"></span> and your showtime is <span id="time"></span></p>
+
+    </div>
+  </div>
 </body>
 </html>
